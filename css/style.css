@@ -1,0 +1,95 @@
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.form-btn{
+    padding: 20px;
+    text-align: center;
+}
+.signup-form{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+form{
+    background-color: aquamarine;
+    padding: 20px 100px;
+    border-radius: 5px;
+    display: none;
+}
+.form-group{
+    padding: 5px 0;
+}
+.form-control{
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
+}
+#submit{
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: rgb(42, 196, 207);
+    color: #ffffff;
+    border: none;
+}
+.message{
+    display: none;
+    font-size: 25px;
+}
+
+.button{
+    text-align: center;
+}
+
+.btn{
+    background-color: aqua;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.toggle{
+    padding: 5px;
+}
+
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    margin: 10px;
+    display: none;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.fadein{
+    background-color: green;
+    color: white;
+    display: none;
+}
+.fadeout{
+    background-color: rgb(228, 5, 5);
+    color: white;
+    display: none;
+}
+
